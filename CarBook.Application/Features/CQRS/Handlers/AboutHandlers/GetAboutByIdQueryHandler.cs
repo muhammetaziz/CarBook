@@ -12,7 +12,7 @@ namespace CarBook.Application.Features.CQRS.Handlers.AboutHandlers
 {
     public class GetAboutByIdQueryHandler
     {
-        private readonly IRepository<Domain.Entities.About> _repository;
+        private readonly IRepository<About> _repository;
 
         public GetAboutByIdQueryHandler(IRepository<About> repository)
         {
